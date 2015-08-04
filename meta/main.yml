@@ -1,0 +1,12 @@
+---
+
+dependencies: []
+galaxy_info:
+  author: Boris Mikhaylov
+  description: Installs and configures docker-machine
+  platforms:
+    - ubuntu
+
+  categories:
+    - development
+    - system
