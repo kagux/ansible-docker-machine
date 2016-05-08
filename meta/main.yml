@@ -4,8 +4,9 @@ dependencies: []
 galaxy_info:
   author: Boris Mikhaylov
   description: Installs and configures docker-machine
+  license: MIT
   platforms:
-    - ubuntu
+    - Ubuntu
 
   categories:
     - development
