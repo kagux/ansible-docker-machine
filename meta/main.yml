@@ -1,13 +1,16 @@
 ---
 
 dependencies: []
+min_ansible_version: 1.2
 galaxy_info:
   author: Boris Mikhaylov
   description: Installs and configures docker-machine
   license: MIT
   platforms:
-    - Ubuntu
+    - name: Ubuntu
+      versions:
+       - trusty
 
-  categories:
+  galaxy_tags:
     - development
     - system
