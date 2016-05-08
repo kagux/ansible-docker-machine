@@ -1,6 +1,6 @@
 - name: download binary
   get_url: >
     dest={{docker_machine_bin}}
-    url=https://github.com/docker/machine/releases/download/v{{docker_machine_version}}/docker-machine_linux-amd64
+    url=https://github.com/docker/machine/releases/download/v{{docker_machine_version}}/docker-machine-Linux-x86_64
 - name: set binary permissions
   file: dest={{docker_machine_bin}} state=file mode=755
